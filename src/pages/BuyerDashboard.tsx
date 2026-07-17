@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Layout } from '../components/Layout'
 import { Icon } from '../components/ui'
 import { IMAGES } from '../constants/images'
+import { AIAssistant } from '../components/AIAssistant'
 
 const suppliers = [
   { name: 'Kasempa Artisanal Co-op', license: '#ZMB-7742', location: 'North-Western Province', grade: 'Grade A', batch: '1.2kg', icon: 'mountain_flag' },
@@ -191,6 +192,7 @@ export function BuyerDashboard() {
             </div>
           </div>
         </div>
+        <AIAssistant />
       </Layout>
   )
 }
