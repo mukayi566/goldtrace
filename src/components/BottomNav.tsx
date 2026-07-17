@@ -10,7 +10,9 @@ const items = [
 ]
 
 const menuItems = [
-  { to: '/miner', icon: 'dashboard', label: 'Dashboard' },
+  { to: '/miner', icon: 'engineering', label: 'Miner Dashboard' },
+  { to: '/buyer', icon: 'shopping_cart', label: 'Buyer Dashboard' },
+  { to: '/government', icon: 'account_balance', label: 'Government' },
   { to: '/trade-center', icon: 'payments', label: 'Trade Center' },
   { to: '/verification', icon: 'verified', label: 'Verification' },
 ]
