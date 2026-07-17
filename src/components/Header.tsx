@@ -38,7 +38,8 @@ export function Header({ variant = 'default', activeNav, showLogin = true }: Hea
   return (
     <header className="bg-surface border-b border-outline-variant flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop h-16 sticky top-0 z-50">
       <Link to="/" className="flex items-center gap-base">
-        <span className="text-headline-md font-bold text-primary hidden sm:inline">GoldTrace</span>
+        <img alt="GoldTrace Logo" className="h-8 w-8 object-contain" src={IMAGES.logo} />
+        <span className="text-headline-sm font-bold text-primary">GoldTrace</span>
       </Link>
 
       {variant === 'default' && (
