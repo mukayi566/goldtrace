@@ -11,7 +11,7 @@ interface SideNavProps {
 const navItems = [
   { id: 'dashboard', icon: 'dashboard', label: 'Dashboard', to: '/miner' },
   { id: 'inventory', icon: 'inventory_2', label: 'Inventory', to: '/verification' },
-  { id: 'transactions', icon: 'receipt_long', label: 'Transactions', to: '/marketplace' },
+  { id: 'transactions', icon: 'receipt_long', label: 'Trade Center', to: '/trade-center' },
   { id: 'reports', icon: 'analytics', label: 'Reports', to: '/government' },
   { id: 'settings', icon: 'settings', label: 'Settings', to: '/register' },
 ]
@@ -46,7 +46,7 @@ export function SideNav({ active = 'dashboard' }: SideNavProps) {
 
       <div className="mt-auto border-t border-outline-variant pt-md space-y-xs">
         <Link
-          to="/marketplace"
+          to="/trade-center"
           className="w-full bg-primary text-on-primary font-bold py-sm rounded-lg mb-md active:scale-95 transition-transform flex items-center justify-center gap-xs"
         >
           New Transaction

@@ -176,7 +176,7 @@ export function VerificationPage() {
             <p className="text-label-md text-secondary">Asset Status: Circulating</p>
             <p className="text-body-md text-on-surface-variant">
               This gold is held in the <strong>Lusaka Central Vault</strong>. Transfer ownership via the{' '}
-              <Link to="/marketplace" className="text-primary underline">Marketplace</Link>.
+              <Link to="/trade-center" className="text-primary underline">Trade Center</Link>.
             </p>
           </div>
         </div>

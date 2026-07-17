@@ -1,5 +1,4 @@
 import { Layout } from '../components/Layout'
-import { Link } from 'react-router-dom'
 import { Icon, StatusBadge } from '../components/ui'
 import { IMAGES } from '../constants/images'
 

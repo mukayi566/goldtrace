@@ -14,16 +14,16 @@ const catalog = [
   { name: 'Mumbwa Alluvial', seller: 'Unity Coop', weight: '0.5 kg', purity: '88.5% Pure', cert: '#90055-X', image: IMAGES.goldGrains },
 ]
 
-export function MarketplacePage() {
+export function TradeCenterPage() {
   const [view, setView] = useState<'miner' | 'buyer'>('miner')
 
   return (
-    <Layout showBottomNav showFooter activeNav="/marketplace" sideNavActive="marketplace">
+    <Layout showBottomNav showFooter activeNav="/trade-center" sideNavActive="trade-center">
       <main className="pb-24 md:pb-8 min-h-screen">
         <div className="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop py-base">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
             <div>
-              <h1 className="text-display-lg text-primary mb-1 font-bold">Gold Marketplace</h1>
+              <h1 className="text-display-lg text-primary mb-1 font-bold">Gold Trade Center</h1>
               <p className="text-on-surface-variant">Official trace-verified trade platform of Zambia.</p>
             </div>
             <div className="bg-surface-container-high p-1 rounded-full flex self-start md:self-center">

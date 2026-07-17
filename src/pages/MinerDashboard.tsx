@@ -21,7 +21,7 @@ const transactions = [
 ]
 
 export function MinerDashboard() {
-  const [price, setPrice] = useState(0.00)
+  const [price] = useState(0.00)
   const [smsEnabled, setSmsEnabled] = useState(true)
 
   useEffect(() => {
@@ -95,7 +95,7 @@ export function MinerDashboard() {
 
         <div className="mb-lg">
           <Link
-            to="/marketplace"
+            to="/trade-center"
             className="w-full h-16 bg-primary text-on-primary rounded-xl text-headline-sm shadow-lg flex items-center justify-center gap-base active:scale-95 transition-transform"
           >
             <Icon name="payments" filled />

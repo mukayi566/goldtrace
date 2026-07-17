@@ -22,7 +22,7 @@ const docs = [
 ]
 
 export function BuyerDashboard() {
-  const [vaultValue, setVaultValue] = useState(0.00)
+  const [vaultValue] = useState(0.00)
 
   useEffect(() => {
     // Vault value update disabled for demo
@@ -77,8 +77,8 @@ export function BuyerDashboard() {
               <div className="bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden">
                 <div className="px-md py-4 border-b border-outline-variant flex justify-between items-center">
                   <h4 className="text-headline-sm text-primary">Verified Supplier List</h4>
-                  <Link to="/marketplace" className="text-primary text-label-md flex items-center hover:underline">
-                    View Marketplace <Icon name="arrow_forward" className="ml-1" />
+                  <Link to="/trade-center" className="text-primary text-label-md flex items-center hover:underline">
+                    View Trade Center <Icon name="arrow_forward" className="ml-1" />
                   </Link>
                 </div>
                 <div className="divide-y divide-outline-variant">

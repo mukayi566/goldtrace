@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import { LandingPage } from './pages/LandingPage'
-import { MarketplacePage } from './pages/MarketplacePage'
+import { TradeCenterPage } from './pages/TradeCenterPage.tsx'
 import { MinerDashboard } from './pages/MinerDashboard'
 import { GovernmentDashboard } from './pages/GovernmentDashboard'
 import { VerificationPage } from './pages/VerificationPage'
@@ -13,7 +13,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<LandingPage />} />
-      <Route path="/marketplace" element={<MarketplacePage />} />
+      <Route path="/trade-center" element={<TradeCenterPage />} />
       <Route path="/miner" element={<MinerDashboard />} />
       <Route path="/government" element={<GovernmentDashboard />} />
       <Route path="/verification" element={<VerificationPage />} />

@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router-dom'
 import { IMAGES } from '../constants/images'
 
 const navLinks = [
-  { to: '/marketplace', label: 'Marketplace' },
+  { to: '/trade-center', label: 'Trade Center' },
   { to: '/verification', label: 'Verification' },
   { to: '/miner', label: 'Miner' },
   { to: '/buyer', label: 'Buyer' },
